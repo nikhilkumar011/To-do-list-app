@@ -54,6 +54,6 @@ Run the server:
 node server.js
 
 # .env file
-## for frontend : VITE_API_URI = https://to-do-list-app-puc2.onrender.com/todos
+## for frontend : VITE_API_URL = https://to-do-list-app-puc2.onrender.com/todos
 
 ## for backend  : MONGO_URI = mongodb+srv://nikhilkumar0112358_db_user:Cg4VUFjQRc5sCwba@cluster1.zu5wa3o.mongodb.net/?appName=Cluster1
