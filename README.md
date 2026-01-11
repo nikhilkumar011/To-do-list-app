@@ -19,3 +19,40 @@ Toggle task completion status
 Display all tasks dynamically
 
 Responsive UI
+
+# API endpoints
+GET /todos/ – Get all tasks.
+
+POST /todos/ – Add a new task.
+
+PUT /todos/:id – Toggle a task’s completed status.
+
+PATCH /todos/:id – Edit a task’s name.
+
+DELETE /todos/:id – Delete a task.
+
+# How to run frontend
+
+Navigate to frontend folder:
+cd frontend
+
+Install dependencies:
+npm install
+
+Run the frontend:
+npm run dev
+
+# How to run backend
+
+Navigate to backend folder:
+cd backend
+
+Install dependencies:
+npm install
+
+Run the server:
+node server.js
+
+# .env file
+for frontend : VITE_API_URI = 
+for backend  : MONGO_URI = 
